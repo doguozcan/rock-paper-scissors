@@ -40,8 +40,8 @@ export default function App() {
   }
 
   return (
-    <div className="flex flex-col items-center m-12 h-screen font-montserrat">
-      <div className="w-1/2 max-w-sm ">
+    <div className="flex flex-col items-center h-screen font-montserrat">
+      <div className="w-1/2 max-w-sm mt-5 sm:mt-10">
         <p className="text-3xl sm:text-5xl text-white text-center">
           {result[0]} - {result[1]}
         </p>
