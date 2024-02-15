@@ -65,22 +65,22 @@ export default function App() {
             ✌️
           </button>
         </div>
-        <p className="text-3xl sm:text-5xl text-white text-center m-5 p-5 duration-150">
+        <p className="text-2xl sm:text-3xl text-white text-center m-5 p-5">
           {message}
         </p>
-        <div className="flex flex-col md:flex-row sm:justify-between text-white">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-white">
           <div className="text-center">
-            <p className="mb-4 text-3xl">You</p>
+            <p className="mb-4 text-xl sm:text-2xl">You</p>
             {myMoves.slice(-3).map((play, index) => (
-              <p key={index} className="text-3xl">
+              <p key={index} className="text-xl sm:text-2xl">
                 {play}
               </p>
             ))}
           </div>
           <div className="text-center">
-            <p className="mb-4 text-3xl">Computer</p>
+            <p className="mb-4 text-xl sm:text-2xl">Computer</p>
             {computersMoves.slice(-3).map((play, index) => (
-              <p key={index} className="text-3xl">
+              <p key={index} className="text-xl sm:text-2xl">
                 {play}
               </p>
             ))}
