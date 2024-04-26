@@ -4,6 +4,10 @@
 
 This Rock-Paper-Scissors Game is a fun, interactive web application built with React.js and styled using Tailwind CSS. It allows users to play the classic game against an automated opponent, with the computer's moves being randomly generated. This project is perfect for developers looking to practice their React skills, including state management with useState, implementing game logic, and creating responsive designs.
 
+## Screenshot
+
+![rock-paper-scissors](https://github.com/doguozcan/rock-paper-scissors/assets/76822280/e40e0392-1fed-484c-b3a9-3c4462fcc70a)
+
 ## Features
 
 - **Game Play**: Engage in the classic Rock-Paper-Scissors game against the computer.
